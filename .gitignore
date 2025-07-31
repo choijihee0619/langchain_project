@@ -1,0 +1,50 @@
+# Large data files
+*.csv
+winemag-data-130k-v2.csv
+nasdaq_screener_*.csv
+
+# MeiliSearch binary and data
+meilisearch
+data.ms/
+dumps/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Package files
+dist/
+build/
+*.egg-info/
